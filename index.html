@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>resturant website</title>
+	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav class="navbar">
+	<nav class="navbar" data-aos="fade-down">
 		<div class="navbar-container container">
 			<input type="checkbox">
 			<div class="hmburger-lines">
@@ -29,7 +30,7 @@
 		</div>
 		
 	</nav>
-	<section class="showcase-area" id="showcase">
+	<section class="showcase-area" id="showcase" >
 		<div class="showcase-container">
 			<h1 class="main-title">eat right food</h1>
 				<p class="ab">eat healthy food it is good for your health.</p>
@@ -37,7 +38,7 @@
 			</div>
 		
 	</section>
-	<section id="about">
+	<section id="about" data-aos="fade-down">
 		<div class="about-wrapper container">
 			<div class="about-text">
 				<p class="small">about us</p>
@@ -56,7 +57,7 @@
 		</div>
 		
 	</section>
-	<section id="food">
+	<section id="food" data-aos="fade-up">
 		<h2>types of food</h2>
 		<div class="food-container container">
 			<div class="food-type fruit">
@@ -98,10 +99,10 @@
 		</div>
 		
 	</section>
-	<section id="food-menu">
+	<section id="food-menu" data-aos="fade-up">
 		<h2 class="food-menu-heading">food menu</h2>
 		<div class="food-menu-container container">
-			<div class="food-menu-item">
+			<div class="food-menu-item" data-aos="fade-down">
 				<div class="food-img">
 				<img src="./img./food-menu1.jpg">
 				</div>
@@ -112,7 +113,7 @@
 				</div>
 				
 			</div>
-			<div class="food-menu-item">
+			<div class="food-menu-item" data-aos="fade-down">
 				<div class="food-img">
 				<img src="./img./food-menu2.jpg">
 				</div>
@@ -123,7 +124,7 @@
 				</div>
 				
 			</div>
-			<div class="food-menu-item">
+			<div class="food-menu-item" data-aos="fade-down">
 				<div class="food-img">
 				<img src="./img./food-menu3.jpg">
 				</div>
@@ -144,7 +145,7 @@
 					<p class="food-price">price :&#8377:800</p>
 				</div>
 				</div>
-			<div class="food-menu-item">
+			<div class="food-menu-item" data-aos="fade-down">
 				<div class="food-img">
 				<img src="./img./food-menu5.jpg">
 				</div>
@@ -155,7 +156,7 @@
 				</div>
 				
 			</div>
-			<div class="food-menu-item">
+			<div class="food-menu-item" data-aos="fade-down">
 				<div class="food-img">
 				<img src="./img./food-menu6.jpg">
 				</div>
@@ -171,7 +172,7 @@
 		</div>
 		
 	</section>
-	<section id="testimonial">
+	<section id="testimonial" data-aos="fade-up">
 		<h2 class="testimonial-title">what our coustomer says</h2>
 		<div class="testimonial-container container">
 			<div class="testimonial-box">
@@ -258,7 +259,7 @@
 		</div>
 
 	</section>
-	<section id="contact">
+	<section id="contact" data-aos="fade-up">
 		<div class="contact-container container">
 			<div class="contact-img">
 				<img src="./img./resturant.jpg" alt="resturant">
@@ -280,6 +281,10 @@
 		<h2>resturant website &copy; all right reserved.</h2>
 		
 	</footer>
+	<script src="aos.js"></script>
+	<script src="main.js"></script>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
